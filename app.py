@@ -2,9 +2,9 @@ import streamlit as st
 import requests
 import datetime
 
-# OpenWeatherMap API Key (Replace with your own key)
+
 API_KEY = "3e6c59778cd9497836b8d0e7bb09c184"
-#BASE_URL = "https://api.openweathermap.org/data/2.5/"
+BASE_URL = "https://api.openweathermap.org/data/2.5/"
 
 
 def get_weather(city):
